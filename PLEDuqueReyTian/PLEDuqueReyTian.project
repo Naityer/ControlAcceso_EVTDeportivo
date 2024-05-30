@@ -94,10 +94,34 @@
   </Settings>
   <VirtualDirectory Name="src">
     <VirtualDirectory Name="Souce Files">
-      <VirtualDirectory Name="EEDD"/>
+      <File Name="GestorDeportivo.cpp"/>
+      <File Name="Aficionado.cpp"/>
+      <File Name="ControlDeportivo.cpp"/>
+      <VirtualDirectory Name="EEDD">
+        <File Name="NodoPila.cpp"/>
+        <File Name="NodoLista.cpp"/>
+        <File Name="NodoCola.cpp"/>
+        <File Name="NodoArbol.cpp"/>
+        <File Name="Lista.cpp"/>
+        <File Name="Cola.cpp"/>
+        <File Name="Pila.cpp"/>
+        <File Name="Arbol.cpp"/>
+      </VirtualDirectory>
     </VirtualDirectory>
     <VirtualDirectory Name="Header Fieles">
-      <VirtualDirectory Name="EEDD"/>
+      <File Name="GestorDeportivo.hpp"/>
+      <File Name="Aficionado.hpp"/>
+      <File Name="ControlDeportivo.hpp"/>
+      <VirtualDirectory Name="EEDD">
+        <File Name="Pila.hpp"/>
+        <File Name="NodoPila.hpp"/>
+        <File Name="NodoLista.hpp"/>
+        <File Name="NodoCola.hpp"/>
+        <File Name="NodoArbol.hpp"/>
+        <File Name="Lista.hpp"/>
+        <File Name="Cola.hpp"/>
+        <File Name="Arbol.hpp"/>
+      </VirtualDirectory>
     </VirtualDirectory>
     <File Name="main.cpp"/>
   </VirtualDirectory>
