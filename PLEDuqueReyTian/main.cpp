@@ -53,12 +53,16 @@ int main(int argc, char** argv)
             gestor.borraPedidosPila();
             break;
         case 'D':
+            gestor.generarAficionados();
+            break;
+        case 'X':
+            gestor.dibujar_ABB();
             break;
         case 'E':
+            gestor.enlistarAficionados();
             break;
         case 'F':
-            break;
-        case 'G':
+            gestor.mostrarListas();
             break;
         case 'H':
             break;

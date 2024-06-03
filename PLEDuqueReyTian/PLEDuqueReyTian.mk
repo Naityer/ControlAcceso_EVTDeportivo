@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=tiand
-Date                   :=5/30/2024
+Date                   :=6/4/2024
 CodeLitePath           :="C:/Program Files/CodeLite"
 MakeDirCommand         :=mkdir
 LinkerName             :=C:/mingw64/bin/g++.exe
@@ -64,8 +64,8 @@ AS       := C:/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-Objects0=$(IntermediateDirectory)/GestorDeportivo.cpp$(ObjectSuffix) $(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/Aficionado.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) \
-	$(IntermediateDirectory)/ControlDeportivo.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) 
+Objects0=$(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) $(IntermediateDirectory)/Aficionado.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix) $(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) $(IntermediateDirectory)/NodoLista.cpp$(ObjectSuffix) \
+	$(IntermediateDirectory)/ControlDeportivo.cpp$(ObjectSuffix) $(IntermediateDirectory)/GestorDeportivo.cpp$(ObjectSuffix) 
 
 
 
@@ -96,15 +96,20 @@ PreBuild:
 ##
 ## Objects
 ##
-$(IntermediateDirectory)/GestorDeportivo.cpp$(ObjectSuffix): GestorDeportivo.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/GestorDeportivo.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/GestorDeportivo.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/GestorDeportivo.cpp$(PreprocessSuffix): GestorDeportivo.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/GestorDeportivo.cpp$(PreprocessSuffix) GestorDeportivo.cpp
-
 $(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix): Arbol.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/Arbol.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Arbol.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/Arbol.cpp$(PreprocessSuffix): Arbol.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Arbol.cpp$(PreprocessSuffix) Arbol.cpp
+
+$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix): Cola.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix): Cola.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix) Cola.cpp
+
+$(IntermediateDirectory)/Lista.cpp$(ObjectSuffix): Lista.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/Lista.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/Lista.cpp$(PreprocessSuffix): Lista.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Lista.cpp$(PreprocessSuffix) Lista.cpp
 
 $(IntermediateDirectory)/Aficionado.cpp$(ObjectSuffix): Aficionado.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/Aficionado.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Aficionado.cpp$(ObjectSuffix) $(IncludePath)
@@ -116,16 +121,6 @@ $(IntermediateDirectory)/NodoArbol.cpp$(ObjectSuffix): NodoArbol.cpp
 $(IntermediateDirectory)/NodoArbol.cpp$(PreprocessSuffix): NodoArbol.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoArbol.cpp$(PreprocessSuffix) NodoArbol.cpp
 
-$(IntermediateDirectory)/Lista.cpp$(ObjectSuffix): Lista.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/Lista.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Lista.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Lista.cpp$(PreprocessSuffix): Lista.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Lista.cpp$(PreprocessSuffix) Lista.cpp
-
-$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix): Cola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/Cola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Cola.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix): Cola.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/Cola.cpp$(PreprocessSuffix) Cola.cpp
-
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
@@ -135,6 +130,11 @@ $(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix): NodoPila.cpp
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/NodoPila.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoPila.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/NodoPila.cpp$(PreprocessSuffix): NodoPila.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoPila.cpp$(PreprocessSuffix) NodoPila.cpp
+
+$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix): NodoCola.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/NodoCola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix): NodoCola.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix) NodoCola.cpp
 
 $(IntermediateDirectory)/Pila.cpp$(ObjectSuffix): Pila.cpp 
 	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/Pila.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/Pila.cpp$(ObjectSuffix) $(IncludePath)
@@ -151,10 +151,10 @@ $(IntermediateDirectory)/ControlDeportivo.cpp$(ObjectSuffix): ControlDeportivo.c
 $(IntermediateDirectory)/ControlDeportivo.cpp$(PreprocessSuffix): ControlDeportivo.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/ControlDeportivo.cpp$(PreprocessSuffix) ControlDeportivo.cpp
 
-$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix): NodoCola.cpp 
-	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/NodoCola.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/NodoCola.cpp$(ObjectSuffix) $(IncludePath)
-$(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix): NodoCola.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/NodoCola.cpp$(PreprocessSuffix) NodoCola.cpp
+$(IntermediateDirectory)/GestorDeportivo.cpp$(ObjectSuffix): GestorDeportivo.cpp 
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/tiand/OneDrive/Escritorio/ControlAccesoDeportivo/PLEDuqueReyTian/GestorDeportivo.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/GestorDeportivo.cpp$(ObjectSuffix) $(IncludePath)
+$(IntermediateDirectory)/GestorDeportivo.cpp$(PreprocessSuffix): GestorDeportivo.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/GestorDeportivo.cpp$(PreprocessSuffix) GestorDeportivo.cpp
 
 ##
 ## Clean

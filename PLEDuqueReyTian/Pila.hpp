@@ -5,7 +5,6 @@ class Pila
 public:
     Pila();
     ~Pila();
-    
     void insertar(int v);
     int extraer();
     int cima();
@@ -13,6 +12,7 @@ public:
     
     int getLongitud();
     void setLongitud(int v);
+    
 private:
 
     pnodoPila ultimo;

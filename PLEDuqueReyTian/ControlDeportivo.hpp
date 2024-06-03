@@ -1,11 +1,11 @@
+#ifndef ControlDeportivo_HPP
+#define ControlDeportivo_HPP
+
 #include <iostream>
 #include <vector>
 #include <cstdlib> 
 
 using namespace std;
-
-#ifndef ControlDeportivo_HPP
-#define ControlDeportivo_HPP
 
 class ControlDeportivo
 {
@@ -27,7 +27,6 @@ private:
     void generarRangoUnico();
     int numero_PilasA();
     int numero_PilasB();
-    int asignarID();
     
     friend class GestorDeportivo;
 };
