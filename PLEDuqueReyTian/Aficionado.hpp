@@ -13,6 +13,8 @@ private:
     int horaLlegada; // minutos
     bool isSocio; // True == Socio ; False = Simpatizante
     
+    friend class Arbol;
+    
 public:
     Aficionado();
     ~Aficionado();
@@ -20,8 +22,13 @@ public:
     Aficionado(int identificador, bool isSocio, int horaLlegada);
     void mostrar();
     
+    // GETTER
     int getIdentificador();
     int getHoraLlegada();
+    bool getIsSocio();
+    
+    //SETTER
+    int setIdentificador(int id);
 };
 
 #endif // AFICIONADO_HPP

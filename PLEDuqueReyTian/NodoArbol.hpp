@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include "Aficionado.hpp"
+#include <algorithm> 
 #include <vector>
 
 class NodoArbol
@@ -15,6 +16,9 @@ private:
     Aficionado* aficionado; 
     NodoArbol* izq;
     NodoArbol* der;
+    
+    // Necesario para balancear el arbol
+    int alturaBalance;
 
     friend class Arbol;
 };

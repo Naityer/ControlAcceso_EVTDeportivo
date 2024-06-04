@@ -40,13 +40,13 @@ int Pila:: cima()
 void Pila::mostrar()
 {
     pnodoPila aux = ultimo;
-    cout << "El contenido de la PILA es: \n" << endl;
+    cout << "El contenido de la PILA es: " << endl;
 
     while(aux){
         cout << "-> " << aux->valor;
         aux = aux ->siguiente;
     }
-    cout << endl;
+    cout << "\n"<< endl;
 }
 
 int Pila::getLongitud()

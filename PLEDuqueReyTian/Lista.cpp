@@ -53,14 +53,15 @@ void Lista::mostrarLista(bool vista)
     cout << "\n" << endl;
 }
 
-Aficionado* Lista::eliminar(bool modoEliminacion) {
+Aficionado* Lista::eliminar(bool modoEliminacion) \
+{
     
     if (listaVacia()) {
         cout << "La lista está vacía. No se puede eliminar ningún nodo." << endl;
         return nullptr;
     }
 
-    Aficionado* paqueteEliminado;
+    Aficionado* delAficioando;
     pnodoLista aux;
 
     if (modoEliminacion) {  // Modo eliminación normal (desde el principio)
@@ -81,12 +82,12 @@ Aficionado* Lista::eliminar(bool modoEliminacion) {
         }
     }
 
-    paqueteEliminado = aux->aficionado;
+    delAficioando = aux->aficionado;
     delete aux;
 
     this->longitud--;
 
-    return paqueteEliminado;
+    return delAficioando;
 }
 
 bool Lista::listaVacia()

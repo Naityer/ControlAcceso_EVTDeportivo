@@ -1,5 +1,6 @@
 #include <GestorDeportivo.hpp>
 #include <ControlDeportivo.hpp>
+#include "GestorDeportivo.hpp"
 #include <iostream>
 
 using namespace std;
@@ -13,6 +14,18 @@ int main(int argc, char** argv)
     srand(static_cast<unsigned int>(time(0)));
     
     do {
+        
+        cout << "\n\t--------------------------------------------------------------\n";
+        cout << "\tNumeros aleatorios PILA (A) -> " << gestor.cantidadPilaA() << "\n";
+        cout << "\tNumeros aleatorios PILA (B) -> " << gestor.cantidadPilaB() << "\n";
+        cout << "\tAficionados en el arbol -> " << gestor.AficionadoEnArbol() << "\n";
+        cout << "\tAficionados en las listas:\n";
+        cout << "\t\tSOCIOS-> " << gestor.AficionadoEnListaSocios() << "\n";
+        cout << "\t\tSIMPATIZANTES-> " << gestor.AficionadoEnListaEstandar() << "\n";
+        cout << "\tAficionados en las colas:\n";
+        cout << "\t\tColasAficionados -> " << gestor.AficionadoEnCola() << "\n";
+        cout << "\t----------------------------------------------------------------\n\n";
+
 
         cout << "\tA. Generar y almacenar numeros aleatorios en las pilas.\n";
         cout << "\tB. Mostrar el contenido de las dos pilas.\n";
@@ -50,7 +63,7 @@ int main(int argc, char** argv)
             gestor.mostrarPilas();
             break;
         case 'C':
-            gestor.borraPedidosPila();
+            gestor.borrarAficionadosPila();;
             break;
         case 'D':
             gestor.generarAficionados();
@@ -59,38 +72,43 @@ int main(int argc, char** argv)
             gestor.dibujar_ABB();
             break;
         case 'E':
-            gestor.enlistarAficionados();
+            gestor.enListarAficionados();
             break;
         case 'F':
             gestor.mostrarListas();
             break;
+        case 'G':
+            gestor.borrarListas();
+            break;
         case 'H':
+            gestor.enColarAficionados();
             break;
         case 'I':
+            gestor.mostrarCola();
             break;
         case 'J':
+            gestor.borrarColas();
             break;
         case 'K':
+            gestor.mostarAficionados(0);
             break;
         case 'L':
+            gestor.mostarAficionados(1);
             break;
         case 'M':
+            gestor.mostarAficionados(2);
             break;
         case 'N':
+            gestor.buscar_ABB();
             break;
         case 'O':
+            gestor.borrarAficionado_ABB();
             break;
         case 'P':
-            break;
-        case 'Q':
+            gestor.buscarAficionadosColas();
             break;
         case 'R':
-            break;
-        case 'T':
-            break;
-        case 'U':
-            break;
-        case 'V':
+            gestor.reiniciar();
             break;
         case 'S':
             cout << "Saliendo del programa...\n";

@@ -1,52 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\ControlAccesoDeportivo.workspace">
-  <int Value="7" Name="m_selectedTab"/>
+  <int Value="1" Name="m_selectedTab"/>
   <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\ControlAccesoDeportivo.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Pila.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="2" Name="CurrentLine"/>
+      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Arbol.cpp" Name="FileName"/>
+      <int Value="260" Name="FirstVisibleLine"/>
+      <int Value="276" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Pila.hpp" Name="FileName"/>
+      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\main.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="7" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Aficionado.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\GestorDeportivo.cpp" Name="FileName"/>
-      <int Value="75" Name="FirstVisibleLine"/>
-      <int Value="101" Name="CurrentLine"/>
+      <int Value="153" Name="FirstVisibleLine"/>
+      <int Value="182" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\GestorDeportivo.hpp" Name="FileName"/>
-      <int Value="3" Name="FirstVisibleLine"/>
-      <int Value="29" Name="CurrentLine"/>
+      <int Value="13" Name="FirstVisibleLine"/>
+      <int Value="27" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Aficionado.hpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="20" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\NodoPila.hpp" Name="FileName"/>
+      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Pila.hpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
       <int Value="12" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
@@ -54,85 +40,22 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Arbol.hpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="17" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\NodoArbol.hpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="16" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\ControlDeportivo.hpp" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
-      <int Value="28" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\main.cpp" Name="FileName"/>
-      <int Value="9" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\ControlDeportivo.cpp" Name="FileName"/>
-      <int Value="9" Name="FirstVisibleLine"/>
-      <int Value="52" Name="CurrentLine"/>
+      <int Value="21" Name="FirstVisibleLine"/>
+      <int Value="46" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
       <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Lista.hpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="11" Name="CurrentLine"/>
+      <int Value="15" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\NodoLista.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Cola.hpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="4" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\NodoLista.hpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="4" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Lista.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="14" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\NodoPila.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="4" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\Arbol.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="3" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\tiand\OneDrive\Escritorio\ControlAccesoDeportivo\PLEDuqueReyTian\NodoArbol.cpp" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="4" Name="CurrentLine"/>
+      <int Value="16" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>

@@ -17,7 +17,7 @@ Aficionado::Aficionado(int identificador, bool isSocio, int horaLlegada)
     this->isSocio = isSocio;
 }
 
-void Aficionado::mostrar() { cout << "Identificador: " << identificador << "; Hora de llegada -> 18:" << horaLlegada << "; Es socio: " << (isSocio ? "Si" : "No") << std::endl; }
+void Aficionado::mostrar() { cout << "Identificador: " << identificador << "; Hora de llegada -> 18:" << (horaLlegada < 10 ? "0" : "") << horaLlegada << "; Es socio: " << (isSocio ? "Si" : "No") << endl; }
 
 // Getters
 int Aficionado::getIdentificador()
@@ -28,6 +28,11 @@ int Aficionado::getIdentificador()
 int Aficionado::getHoraLlegada()
 {
     return this->horaLlegada;
+}
+
+bool Aficionado::getIsSocio()
+{
+    return this->isSocio;
 }
 
 Aficionado::~Aficionado()
